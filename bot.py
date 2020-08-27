@@ -97,7 +97,7 @@ def button(update, context):
     
 def donate(update,context):
 	update.message.reply_text("You can support me by donating any amount you wish to me using the following *Payment Options*: \n\n[Paypal](https://paypal.me/yamit11) \nUPI : `amity11@kotak` \n[Debit/Credit/Other wallets](https://rzp.io/l/amity11)\n\nDon't forget to send a screenshot of the transaction to @amit_y11",parse_mode=ParseMode.MARKDOWN)
-    return donate
+
 	
 def main(): 
     bot_token=os.environ.get("BOT_TOKEN", "")
