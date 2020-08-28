@@ -35,7 +35,7 @@ def start(update,context):
     """Send a message when the command /start is issued."""
     global first
     first=update.message.chat.first_name
-    update.message.reply_text('Hi! '+str(first)+' \n\nWelcome to Optical Character Recognizer Bot. \n\nJust send a clear image to me and i will recognize the text in the image and send it as a message!\nCreated By @nabilanavab')
+    update.message.reply_text('Hi! '+str(first)+' \n\nWelcome to Optical Character Recognizer Bot. \n\nJust send a clear image to me and i will recognize the text in the image and send it as a message! \n\nCreated By @nabilanavab')
 
 @run_async
 @send_typing_action
